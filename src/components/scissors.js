@@ -3,7 +3,7 @@ import  scissors  from "../assets/icon-scissors.svg";
 
 export const Scissors = () => {
   return (
-    <div>
+    <div className='choiceScissors'>
         <img src={scissors} alt="" />
     </div>
   )

@@ -3,7 +3,7 @@ import  paper  from "../assets/icon-paper.svg";
 
 export const Paper = () => {
   return (
-    <div>
+    <div className='choicePaper'>
         <img src={paper} alt="" />
     </div>
   )

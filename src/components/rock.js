@@ -3,7 +3,7 @@ import  rock  from "../assets/icon-rock.svg";
 
 export const Rock = () => {
   return (
-    <div>
+    <div className='choiceRock'>
         <img src={rock} alt="" />
     </div>
   )
