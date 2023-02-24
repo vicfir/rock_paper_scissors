@@ -1,0 +1,10 @@
+import React from 'react'
+import  scissors  from "../assets/icon-scissors.svg";
+
+export const Scissors = () => {
+  return (
+    <div>
+        <img src={scissors} alt="" />
+    </div>
+  )
+}
