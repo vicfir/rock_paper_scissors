@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import './App.scss';
 import { Choice } from "./components/choice";
 import { Score } from "./components/score";
 
