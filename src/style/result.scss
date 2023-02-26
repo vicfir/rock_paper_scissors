@@ -1,23 +1,42 @@
-.choiceRock{
-    background-color: white;
-    padding: 55px 55px;
-    border-radius: 100%;
-    border: 20px solid #db314d;
-    box-shadow: 0px 10px 0px 0px #801d2d;
-}
-
-.choiceScissors{
-    background-color: white;
-    padding: 50px 55px;
-    border-radius: 100%;
-    border: 20px solid #eda71d;
-    box-shadow: 0px 10px 0px 0px #926711;
-}
-
-.choicePaper{
-    background-color: white;
-    padding: 50px 55px;
-    border-radius: 100%;
-    border: 20px solid #546ff4;
-    box-shadow: 0px 10px 0px 0px #384aa5;
+#result {
+    .choiceRock{
+        background-color: white;
+        padding: 55px 55px;
+        border-radius: 100%;
+        border: 20px solid #db314d;
+        box-shadow: 0px 10px 0px 0px #801d2d;
+        margin: 20px;
+    }
+    
+    .choiceScissors{
+        background-color: white;
+        padding: 50px 55px;
+        border-radius: 100%;
+        border: 20px solid #eda71d;
+        box-shadow: 0px 10px 0px 0px #926711;
+        margin: 20px;
+    }
+    
+    .choicePaper{
+        background-color: white;
+        padding: 50px 55px;
+        border-radius: 100%;
+        border: 20px solid #546ff4;
+        box-shadow: 0px 10px 0px 0px #384aa5;
+        margin: 20px;
+    }
+    
+    .timer{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 200px;
+        height: 200px;
+        color: grey;
+        font-size: 50px;
+        font-weight: bolder;
+        background-color: white;
+        border-radius: 100%;
+        margin: 20px;
+    }
 }

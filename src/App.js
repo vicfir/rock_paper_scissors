@@ -22,7 +22,7 @@ function App() {
   return (
     <div className="App">
         <Score score={score}/>
-        {selectedChoice.selected ? <Result setSelectedChoice={setSelectedChoice} selectedChoice={selectedChoice}/> : <Choice setSelectedChoice={setSelectedChoice}/>}
+        {selectedChoice.selected ? <Result setSelectedChoice={setSelectedChoice} selectedChoice={selectedChoice} score={score} setScore={setScore}/> : <Choice setSelectedChoice={setSelectedChoice}/>}
         <button
           className='text-white border rounded-lg px-8 py-2 tracking-widest absolute bottom-10 right-10' 
           type="button"
@@ -32,8 +32,6 @@ function App() {
         </button>
         {showModal ? <Rules modal={setShowModal}/> : null}
         
-        {/* //test */}
-        <p className='text-white font-bold'>{selectedChoice.choice}</p>
     </div>
   );
 }
